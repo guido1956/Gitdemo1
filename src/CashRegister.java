@@ -28,6 +28,10 @@ public class CashRegister {
         if (content > this.content) {
             return "Not enough money in CashRegister to withdraw";
         }
+
+        if (content <=0) {
+            return "Amount of money to withdraw had to be more than 0.00";
+        }
         this.content -= content;
         return "";
     }
