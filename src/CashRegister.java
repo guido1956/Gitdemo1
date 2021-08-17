@@ -24,10 +24,11 @@ public class CashRegister {
         this.content = content;
     }
 
-    public void subtractContent(double content) {
+    public String subtractContent(double content) {
         if (content > this.content) {
-            return;
+            return "Not enough money in CashRegister to withdraw";
         }
         this.content -= content;
+        return "";
     }
 }
