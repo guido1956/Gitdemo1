@@ -25,6 +25,6 @@ public class CashRegister {
     }
 
     public void subtractContent(double content) {
-
+        this.content -= content;
     }
 }
