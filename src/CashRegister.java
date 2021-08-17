@@ -2,10 +2,7 @@
  * GD
  * 17-8-2021
  *
- * Predicted Production Release 2.0
- * Feature_addContent
- * Featuer_subtract content
- *
+ * Production Release 2.0
  */
 
 public class CashRegister {
