@@ -1,8 +1,9 @@
 /**
  * GD
  * 17-8-2021
- * Version 1
- * Production Release 1.0
+ * Version 2
+ * Predicted Production Release 2.0
+ *
  */
 
 public class CashRegister {
