@@ -2,7 +2,7 @@
  * GD
  * 17-8-2021
  *
- * Production Release 2.0
+ * Production Release 2.00
  */
 
 public class CashRegister {
