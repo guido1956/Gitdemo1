@@ -1,6 +1,7 @@
 /**
  * GD
  * 17-8-2021
+ *
  * Predicted Production Release 2.0
  *
  */
@@ -34,5 +35,9 @@ public class CashRegister {
         }
         this.content -= content;
         return "";
+    }
+
+    public void addContent(double content) {
+        this.content += content;
     }
 }
