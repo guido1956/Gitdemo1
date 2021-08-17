@@ -1,7 +1,6 @@
 /**
  * GD
  * 17-8-2021
- * Version 2
  * Predicted Production Release 2.0
  *
  */
@@ -23,5 +22,9 @@ public class CashRegister {
 
     public void setContent(double content) {
         this.content = content;
+    }
+
+    public void subtractContent(double content) {
+
     }
 }
