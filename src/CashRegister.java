@@ -15,6 +15,10 @@ public class CashRegister {
     public CashRegister(double content) {
         this.content = content;
     }
+
+    public double getContent() {
+        return content;
+    }
 }
 
 
