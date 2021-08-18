@@ -11,6 +11,10 @@ public class CashRegister {
     public CashRegister() {
          content = 0;
     }
+
+    public CashRegister(double content) {
+        this.content = content;
+    }
 }
 
 
