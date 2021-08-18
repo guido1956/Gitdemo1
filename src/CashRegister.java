@@ -7,4 +7,12 @@
 
 public class CashRegister {
     private double content;
+
+    public CashRegister() {
+         content = 0;
+    }
 }
+
+
+
+
