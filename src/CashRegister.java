@@ -30,7 +30,7 @@ public class CashRegister {
 
     }
 
-    private void toonLogging() {
+    private void showLogs() {
         for (Loggin e : logs) {
             System.out.println(e.getLogging() + " " + e.getValue());
         }
