@@ -13,10 +13,12 @@ public class CashRegister {
 
     public CashRegister() {
          content = 0.00;
+         logging("new cashregister", content);
     }
 
     public CashRegister(double content) {
         this.content = content;
+        logging("new cahregister", content);
     }
 
     public double getContent() {
@@ -24,6 +26,7 @@ public class CashRegister {
     }
 
     private void logging(String log, double value) {
+        logs.add(new Loggin(log, value));
 
     }
 }
