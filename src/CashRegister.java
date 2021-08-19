@@ -24,6 +24,12 @@ public class CashRegister {
         return content;
     }
 
+    public void setContent(double content) {
+        logging("wisselen cassette. Oude casette: ", this.content);
+        logging("wisselen cassette. Nieuwe cassette: " , content);
+        this.content = content;
+    }
+
     private void logging(String log, double value) {
         logs.add(new Loggin(log, value));
 
