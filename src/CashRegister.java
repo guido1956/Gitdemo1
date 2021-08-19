@@ -16,6 +16,9 @@ public class CashRegister {
     }
 
     public CashRegister(double content) {
+        if (content < 0.00) {
+            content = 0.00;
+        }
         this.content = content;
         logging("new cahregister", content);
     }
