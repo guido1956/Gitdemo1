@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * GD
  * 17-8-2021
@@ -7,9 +9,10 @@
 
 public class CashRegister {
     private double content;
+    private ArrayList<Loggin> logs;
 
     public CashRegister() {
-         content = 0;
+         content = 0.00;
     }
 
     public CashRegister(double content) {
@@ -18,6 +21,10 @@ public class CashRegister {
 
     public double getContent() {
         return content;
+    }
+
+    private void logging(String log, double value) {
+
     }
 }
 
