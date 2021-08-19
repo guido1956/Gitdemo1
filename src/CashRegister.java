@@ -29,6 +29,12 @@ public class CashRegister {
         logs.add(new Loggin(log, value));
 
     }
+
+    private void toonLogging() {
+        for (Loggin e : logs) {
+            System.out.println(e.getLogging() + " " + e.getValue());
+        }
+    }
 }
 
 
