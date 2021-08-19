@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * GD
  * 17-8-2021
- * Production Release 2.0
+ * Production Release 3.0
  */
 
 public class CashRegister {
